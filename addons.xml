@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addons>
+<addon id="repository.thegrindage" name="[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Repository[/B][/COLOR]" version="1.1.1" provider-name="[COLORyellow][B]Yo' Boy From Oklahoma[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="Grind repository">
+    <info compressed="false">https://raw.githubusercontent.com/thegrindage/sellersrepo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thegrindage/sellersrepo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/thegrindage/sellerzips/master/addons/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Grind Repository!</summary>
+    <description>The Grind Repository!</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.program.grindwizard" name="[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Wizard[/B][/COLOR]" version="1.1.1" provider-name="[COLORyellow][B]Yo' Boy From Oklahoma[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Wizard[/B][/COLOR]</summary>
+    <description lang="en">The Grind Wizard allows access to the latest Grindage builds, composed of 3rd party addons, in which most are NOT official Kodi/XBMC addons.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
