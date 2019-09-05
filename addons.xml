@@ -16,7 +16,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.grindwizard" name="[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Wizard[/B][/COLOR]" version="1.1.5" provider-name="[B][COLORpink]Yo Boy From Oklahoma[/COLOR][/B]">
+<addon id="plugin.program.grindwizard" name="[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Wizard[/B][/COLOR]" version="2.1.8" provider-name="[COLORpink][B]Yo' Boy From Oklahoma[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
